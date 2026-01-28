@@ -1,0 +1,44 @@
+  What to change in index.html (lines 988-994):
+
+  // Use CartoDB Voyager tiles with English labels (requires internet connection)
+  //L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+  //    attribution: '© OpenStreetMap contributors, © CARTO',
+  //    maxZoom: 19,
+  //    subdomains: 'abcd'
+  //}).addTo(map);
+  L.tileLayer.wms('https://<YOUR-WMS-URL>', {
+      layers: '<LAYER_NAME>',
+      format: 'image/png',
+      transparent: true,
+      attribution: 'Local WMS',
+      maxZoom: 19
+  }).addTo(map);
+
+  To find the layer name, append ?service=WMS&request=GetCapabilities to the WMS URL in your browser. The XML response will contain <Layer> elements with <Name> values - that's what goes in the layers parameter.
+
+❯ give me examples of layer name
+
+● Common WMS layer name examples:
+  ┌───────────────────┬───────────────────────┐
+  │   Provider/Type   │      Layer Name       │
+  ├───────────────────┼───────────────────────┤
+  │ OpenStreetMap     │ osm:osm, osm          │
+  ├───────────────────┼───────────────────────┤
+  │ GeoServer default │ topp:states, ne:world │
+  ├───────────────────┼───────────────────────┤
+  │ Natural Earth     │ ne:NE1_HR_LC_SR_W_DR  │
+  ├───────────────────┼───────────────────────┤
+  │ Satellite imagery │ imagery, satellite    │
+  ├───────────────────┼───────────────────────┤
+  │ ESRI-style        │ 0 (just a number)     │
+  ├───────────────────┼───────────────────────┤
+  │ Namespace:Layer   │ workspace:layername   │
+  └───────────────────┴───────────────────────┘
+  The XML you saw likely has something like:
+
+  <Layer queryable="1">
+    <Name>some:layer_name</Name>    <!-- THIS is what you need -->
+    <Title>Human Readable Title</Title>
+  </Layer>
+
+  When you have access to the WMS URL again, just open <WMS_URL>?service=WMS&request=GetCapabilities and search the XML for <Name> tags inside <Layer> blocks.
