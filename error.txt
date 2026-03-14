@@ -1,0 +1,200 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/ssl.py", line 1027, in _create
+    self.getpeername()
+    ~~~~~~~~~~~~~~~~^^
+OSError: [Errno 107] Transport endpoint is not connected
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/hub.py", line 471, in fire_timers
+    timer()
+    ~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/timer.py", line 59, in __call__
+    cb(*args, **kw)
+    ~~^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenthread.py", line 272, in main
+    result = function(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/gunicorn/workers/geventlet.py", line 82, in _eventlet_serve
+    conn, addr = sock.accept()
+                 ~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenio/base.py", line 228, in accept
+    self._trampoline(fd, read=True, timeout=self.gettimeout(), timeout_exc=_timeout_exc)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenio/base.py", line 206, in _trampoline
+    return trampoline(fd, read=read, write=write, timeout=timeout,
+                      timeout_exc=timeout_exc,
+                      mark_as_closed=self._mark_as_closed)
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/__init__.py", line 157, in trampoline
+    return hub.switch()
+           ~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/hub.py", line 310, in switch
+    return self.greenlet.switch()
+           ~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/gunicorn/workers/geventlet.py", line 101, in _eventlet_stop
+    client.wait()
+    ~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenthread.py", line 232, in wait
+    return self._exit_event.wait()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/event.py", line 131, in wait
+    current.throw(*self._exc)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenthread.py", line 272, in main
+    result = function(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/gunicorn/workers/geventlet.py", line 155, in handle
+    client = ssl_wrap_socket(client, self.cfg)
+  File "/usr/local/lib/python3.13/site-packages/gunicorn/sock.py", line 228, in ssl_wrap_socket
+    return ssl_context(conf).wrap_socket(sock,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+                                         server_side=True,
+                                         ^^^^^^^^^^^^^^^^^
+                                         suppress_ragged_eofs=conf.suppress_ragged_eofs,
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         do_handshake_on_connect=conf.do_handshake_on_connect)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/green/ssl.py", line 436, in wrap_socket
+    return GreenSSLSocket(sock, *a, _context=self, **kw)
+  File "/usr/local/lib/python3.13/site-packages/eventlet/green/ssl.py", line 65, in __new__
+    ret = _original_sslsocket._create(
+        sock=sock.fd,
+    ...<5 lines>...
+        session=kw.get('session'),
+    )
+  File "/usr/local/lib/python3.13/ssl.py", line 1056, in _create
+    raise notconn_pre_handshake_data_error
+ssl.SSLError: Closed before TLS handshake with data in recv buffer.
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET /socket.io/?EIO=4&transport=polling&t=PpiLb5w HTTP/1.1" 200 118 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET / HTTP/1.1" 200 124944 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET /socket.io/?EIO=4&transport=polling&t=PpiLVUW HTTP/1.1" 200 118 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/ssl.py", line 1027, in _create
+    self.getpeername()
+    ~~~~~~~~~~~~~~~~^^
+OSError: [Errno 107] Transport endpoint is not connected
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/hub.py", line 471, in fire_timers
+    timer()
+    ~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/timer.py", line 59, in __call__
+    cb(*args, **kw)
+    ~~^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/hub.py", line 471, in fire_timers
+    timer()
+    ~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/timer.py", line 59, in __call__
+    cb(*args, **kw)
+    ~~^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenthread.py", line 272, in main
+    result = function(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/gunicorn/workers/geventlet.py", line 82, in _eventlet_serve
+    conn, addr = sock.accept()
+                 ~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenio/base.py", line 228, in accept
+    self._trampoline(fd, read=True, timeout=self.gettimeout(), timeout_exc=_timeout_exc)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenio/base.py", line 206, in _trampoline
+    return trampoline(fd, read=read, write=write, timeout=timeout,
+                      timeout_exc=timeout_exc,
+                      mark_as_closed=self._mark_as_closed)
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/__init__.py", line 157, in trampoline
+    return hub.switch()
+           ~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/hubs/hub.py", line 310, in switch
+    return self.greenlet.switch()
+           ~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/gunicorn/workers/geventlet.py", line 101, in _eventlet_stop
+    client.wait()
+    ~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenthread.py", line 232, in wait
+    return self._exit_event.wait()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/event.py", line 131, in wait
+    current.throw(*self._exc)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/greenthread.py", line 272, in main
+    result = function(*args, **kwargs)
+  File "/usr/local/lib/python3.13/site-packages/gunicorn/workers/geventlet.py", line 155, in handle
+    client = ssl_wrap_socket(client, self.cfg)
+  File "/usr/local/lib/python3.13/site-packages/gunicorn/sock.py", line 228, in ssl_wrap_socket
+    return ssl_context(conf).wrap_socket(sock,
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+                                         server_side=True,
+                                         ^^^^^^^^^^^^^^^^^
+                                         suppress_ragged_eofs=conf.suppress_ragged_eofs,
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                         do_handshake_on_connect=conf.do_handshake_on_connect)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/eventlet/green/ssl.py", line 436, in wrap_socket
+    return GreenSSLSocket(sock, *a, _context=self, **kw)
+  File "/usr/local/lib/python3.13/site-packages/eventlet/green/ssl.py", line 65, in __new__
+    ret = _original_sslsocket._create(
+        sock=sock.fd,
+    ...<5 lines>...
+        session=kw.get('session'),
+    )
+  File "/usr/local/lib/python3.13/ssl.py", line 1056, in _create
+    raise notconn_pre_handshake_data_error
+ssl.SSLError: Closed before TLS handshake with data in recv buffer.
+2026-03-14 12:33:31,544 - INFO - [WSS] Central-WSS connected to wss://central-wss:8766
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET /static/js/socket.io.min.js HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET /static/css/leaflet.css HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET /static/js/leaflet.js HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET /static/js/chart.min.js HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET /static/icons/sensor-icon.svg HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:31 +0000] "GET /api/sensors HTTP/1.1" 200 596 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:32 +0000] "GET /socket.io/?EIO=4&transport=polling&t=PpiLcZW HTTP/1.1" 200 118 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-14 12:33:32,040 - INFO - Client connected: admin @ 215.65.185.236 [1 connected]
+215.65.185.236 - - [14/Mar/2026:12:33:32 +0000] "POST /socket.io/?EIO=4&transport=polling&t=PpiLcbl&sid=PEwUdVKnT5MGO21TAAAC HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:32 +0000] "GET /socket.io/?EIO=4&transport=polling&t=PpiLcbm&sid=PEwUdVKnT5MGO21TAAAC HTTP/1.1" 200 753 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:32 +0000] "GET /api/live-state HTTP/1.1" 200 35 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:32 +0000] "GET /api/initial-state HTTP/1.1" 200 1985576 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-14 12:33:41,545 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:33:42,156 - INFO - [WSS] Central-WSS received message: list with 65 event(s)
+2026-03-14 12:33:42,169 - INFO - [Sensor] Detected sensor: hp-qtr.18.2 at (25.669620, 51.492476)
+2026-03-14 12:33:42,680 - INFO - [DB] Stored batch 66370 with 65 events from Central-WSS
+2026-03-14 12:33:42,688 - INFO - [WSS] Central-WSS emitted batch with 65 events to clients
+215.65.185.236 - - [14/Mar/2026:12:33:42 +0000] "GET /socket.io/?EIO=4&transport=polling&t=PpiLcc1&sid=PEwUdVKnT5MGO21TAAAC HTTP/1.1" 200 2363 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-14 12:33:42,797 - INFO - [WSS] Central-WSS received message: list with 211 event(s)
+2026-03-14 12:33:44,679 - INFO - [Cache] Compressed: 1939 KB (5681 batches, 151914 events)
+2026-03-14 12:33:46,367 - INFO - [DB] Stored batch 66371 with 211 events from Central-WSS
+2026-03-14 12:33:46,378 - INFO - [WSS] Central-WSS emitted batch with 211 events to clients
+215.65.185.236 - - [14/Mar/2026:12:33:46 +0000] "GET /socket.io/?EIO=4&transport=polling&t=PpiLfDR&sid=PEwUdVKnT5MGO21TAAAC HTTP/1.1" 200 5821 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-14 12:33:48,388 - INFO - [Cache] Compressed: 1940 KB (5682 batches, 151983 events)
+2026-03-14 12:33:51,546 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+215.65.185.236 - - [14/Mar/2026:12:33:57 +0000] "GET /socket.io/?EIO=4&transport=polling&t=PpiLg6n&sid=PEwUdVKnT5MGO21TAAAC HTTP/1.1" 200 1 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+215.65.185.236 - - [14/Mar/2026:12:33:57 +0000] "POST /socket.io/?EIO=4&transport=polling&t=PpiLii7&sid=PEwUdVKnT5MGO21TAAAC HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-14 12:34:01,546 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:34:11,547 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:34:21,547 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+215.65.185.236 - - [14/Mar/2026:12:34:22 +0000] "GET /socket.io/?EIO=4&transport=polling&t=PpiLii7.0&sid=PEwUdVKnT5MGO21TAAAC HTTP/1.1" 200 1 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+2026-03-14 12:34:31,549 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:34:31,728 - INFO - [WSS] Central-WSS received message: list with 102 event(s)
+2026-03-14 12:34:31,739 - INFO - [Sensor] Detected sensor: hp-omn.15.4 at (26.477548, 56.537974)
+2026-03-14 12:34:32,519 - INFO - [DB] Stored batch 66372 with 102 events from Central-WSS
+2026-03-14 12:34:32,528 - INFO - [WSS] Central-WSS emitted batch with 102 events to clients
+2026-03-14 12:34:35,589 - INFO - [Cache] Compressed: 1940 KB (5682 batches, 152001 events)
+2026-03-14 12:34:41,550 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:34:44,888 - INFO - Client disconnected: admin @ 215.65.185.236 (session 73s) [0 connected]
+2026-03-14 12:34:46,842 - INFO - [WSS] Central-WSS received message: list with 215 event(s)
+2026-03-14 12:34:48,601 - INFO - [DB] Stored batch 66373 with 215 events from Central-WSS
+2026-03-14 12:34:48,608 - INFO - [WSS] Central-WSS emitted batch with 215 events to clients
+2026-03-14 12:34:50,606 - INFO - [Cache] Compressed: 1941 KB (5682 batches, 152068 events)
+2026-03-14 12:34:51,559 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:35:01,559 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:35:11,560 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:35:21,561 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:35:31,563 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:35:37,339 - INFO - [WSS] Central-WSS received message: list with 8 event(s)
+2026-03-14 12:35:37,486 - INFO - [DB] Stored batch 66374 with 8 events from Central-WSS
+2026-03-14 12:35:37,492 - INFO - [WSS] Central-WSS emitted batch with 8 events to clients
+2026-03-14 12:35:37,525 - INFO - [WSS] Central-WSS received message: list with 81 event(s)
+2026-03-14 12:35:39,701 - INFO - [Cache] Compressed: 1941 KB (5683 batches, 152074 events)
+2026-03-14 12:35:40,614 - INFO - [DB] Stored batch 66375 with 81 events from Central-WSS
+2026-03-14 12:35:40,620 - INFO - [WSS] Central-WSS emitted batch with 81 events to clients
+2026-03-14 12:35:42,296 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
+2026-03-14 12:35:42,695 - INFO - [Cache] Compressed: 1941 KB (5684 batches, 152095 events)
+2026-03-14 12:35:51,566 - INFO - [WSS] Central-WSS received message: dict with 1 event(s)
