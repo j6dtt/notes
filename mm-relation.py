@@ -38,10 +38,17 @@ async def main():
         # Create a mapping of ``api.Node.id`` to ``api.Node``.
         node_id_map = {node["id"]: node for node in node_list}
         # Print all received ``sweep.SweepData`` objects and the ``api.Node`` they reference.
-        for sweep_data in sweep_data_list:
-            related_node = node_id_map[sweep_data['node']]
-            print(f"Sweep data: {sweep_data!r}")
-            print(f"Related node: {related_node}")
+        #for sweep_data in sweep_data_list:
+        #    related_node = node_id_map[sweep_data['node']]
+        #    print(f"Sweep data: {sweep_data!r}")
+        #    print(f"Related node: {related_node}")
+
+        # Save both datasets to pretty JSON files.
+        with open("sweep_data.json", "w") as f:
+            json.dump(sweep_data_list, f, indent=2)
+        with open("nodes.json", "w") as f:
+            json.dump(node_list, f, indent=2)
+
 
 
 if __name__ == "__main__":
