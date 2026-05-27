@@ -1,0 +1,4 @@
+# Source custom commands
+if [ -f "$HOME/.bash" ]; then
+    source "$HOME/.bash"
+fit
