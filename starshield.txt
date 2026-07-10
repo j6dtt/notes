@@ -497,6 +497,28 @@
                         "mode": "full",
                         "service_lines": []
                     }
+                },
+                {
+                    "account_num": "ACC-SD-1063-90130-40",
+                    "client_id": "9429ca80-200c-405e-8a12-49b7e7faa7b0",
+                    "client_secret": "_secret_",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1432-25301-38",
+                    "client_id": "fa8aab80-2a6b-4999-bd24-db8eee9cf5ed",
+                    "client_secret": "_secret_",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
                 }
             ],
             "grant_type": "client_credentials"
