@@ -1,0 +1,148 @@
+{
+  "id": 9,
+  "_repr": "ADABDF2",
+  "packets_total_day": 6598117,
+  "status": [
+    {
+      "status": "ERROR",
+      "message": "",
+      "detail": "Message from node ADABDF2: Unable to schedule the command :localhost",
+      "url": "/logs/logentry/58081/"
+    },
+    {
+      "status": "WARNING",
+      "message": "License expired",
+      "detail": "Last updated: 2026-08-05 16:49:09 UTC",
+      "url": ""
+    },
+    {
+      "status": "ONLINE",
+      "message": "EMP online",
+      "detail": "",
+      "url": ""
+    },
+    {
+      "status": "ONLINE",
+      "message": "HTTP online",
+      "detail": "",
+      "url": ""
+    },
+    {
+      "status": "ONLINE",
+      "message": "NCP online",
+      "detail": "",
+      "url": ""
+    },
+    {
+      "status": "DISABLED",
+      "message": "GPS disabled",
+      "detail": "",
+      "url": ""
+    },
+    {
+      "status": "DISABLED",
+      "message": "PHD disabled",
+      "detail": "",
+      "url": ""
+    }
+  ],
+  "is_http_online": true,
+  "is_phd_online": null,
+  "is_ncp_online": true,
+  "is_emp_online": true,
+  "is_gps_online": null,
+  "location": {
+    "id": 1094618,
+    "timestamp": "2026-06-16T05:23:39.896612Z",
+    "fix": 1,
+    "satellites": 7,
+    "jamming": 20.392157,
+    "latitude": 0,
+    "longitude": 0,
+    "layer": null,
+    "speed": 0,
+    "heading": 0,
+    "altitude": 0,
+    "source": 1
+  },
+  "apps": [],
+  "sessions": [],
+  "session_rules": [],
+  "packages": [],
+  "versions": [],
+  "version": "2.25.2-454",
+  "license": {
+    "license_ssus": "2026-07-30",
+    "tier": 1,
+    "releases": [
+      "2.25",
+      "2.26",
+      "2.27"
+    ],
+    "features": [
+      {
+        "key": "ncpd:base",
+        "name": "NCPD"
+      },
+      {
+        "key": "ncpd:site",
+        "name": "RFeye Site connection"
+      },
+      {
+        "key": "ncpd:gmp",
+        "name": "GMP connection"
+      },
+      {
+        "key": "ncpd:aoa",
+        "name": "AOA"
+      },
+      {
+        "key": "emp:base",
+        "name": "EMP app"
+      },
+      {
+        "key": "emp:occupancy",
+        "name": "EMP occupancy"
+      },
+      {
+        "key": "emp:survey",
+        "name": "EMP survey"
+      },
+      {
+        "key": "emp:http_api",
+        "name": "EMP HTTP API"
+      },
+      {
+        "key": "node:enhanced_security",
+        "name": "Enhanced security"
+      }
+    ]
+  },
+  "name": "",
+  "host": "",
+  "hostname": "",
+  "fqdn": "",
+  "is_enabled": true,
+  "http_port": 80,
+  "is_http_encrypted": false,
+  "is_http_enabled": true,
+  "http_username": "",
+  "http_password": "",
+  "mac_address": "00:1e:89:10:20:09",
+  "ssh_port": 22,
+  "is_phd_enabled": false,
+  "is_ncp_enabled": true,
+  "is_ncp_authenticated": false,
+  "is_connection_encrypted": false,
+  "ncp_port": 9999,
+  "is_emp_enabled": true,
+  "is_gps_enabled": false,
+  "is_access_enabled": true,
+  "is_location_sync_enabled": true,
+  "description": "",
+  "license_ssus": "2026-07-30T00:00:00Z",
+  "license_status_last_updated": "2026-08-05T16:49:09.670424Z",
+  "groups": [
+    3
+  ]
+}
