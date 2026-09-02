@@ -1,0 +1,838 @@
+{
+    "config": {
+        "authentication": {
+            "_comment": "Starshield Service Accounts V2",
+            "accounts": [
+                {
+                    "account_num": "ACC-3850690-15069-17",
+                    "client_id": "72088ec0-4748-4d78-9469-ae9aa377d047",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-8986010-56607-4",
+                    "client_id": "252864d6-a17b-4a0c-bd3f-038fc492605a",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-8959440-48524-10",
+                    "client_id": "e47656c0-1620-428f-ab99-ddd6895842cc",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-7476588-89797-50",
+                    "client_id": "8d0669f1-d675-41a1-bb6c-4a5260bacef8",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-7864722-44416-20",
+                    "client_id": "226aad9c-d8c5-4c8e-aaad-24526b9ffb16",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-9057425-84634-5",
+                    "client_id": "b6aca02f-b00a-4536-884b-dfb485ce1eea",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-8322846-69579-34",
+                    "client_id": "a3a79e98-5b87-45db-b381-ac2e8338848f",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-8692862-50686-31",
+                    "client_id": "506470f6-5a4e-47a0-a115-9576600babdc",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-8648914-34403-19",
+                    "client_id": "06c3d850-d295-4ce2-9e99-60bd79099749",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-7474834-26190-20",
+                    "client_id": "be530377-6b65-48d3-9eaa-ff75dcb9c40b",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-8967548-12112-2",
+                    "client_id": "950a281f-b9d5-443c-9576-a3700a8c31ec",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-6866497-99081-38",
+                    "client_id": "c6e430e2-8325-4d31-8d64-dfab7163d459",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-8958464-55728-19",
+                    "client_id": "9afb6fbb-f243-4210-be07-b0caef1271f0",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-9125548-52365-3",
+                    "client_id": "ed58e813-7580-4fdb-88ec-55e97c505b60",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-10081298-38989-62",
+                    "client_id": "5806ee98-2ba2-4716-b95a-9ac8d1be4c15",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-9202511-34401-80",
+                    "client_id": "9a970b7f-d000-48fa-b873-5baca11b4fba",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-11813884-21285-48",
+                    "client_id": "0ece9b42-3860-4c31-92e1-4bd5ef1442b1",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-11116024-30368-32",
+                    "client_id": "21f60d5d-2eed-4970-affc-6d020e3db1ef",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-6027477-85927-29",
+                    "client_id": "c4bdd3da-a8d3-4dd2-9ea8-5ee9489027c4",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-11814392-73819-53",
+                    "client_id": "bc9e8d36-64a8-4565-b785-f5fb850853c3",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-6552556-68662-27",
+                    "client_id": "2f9aefbb-1032-49ad-afbb-eba398ac66bc",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-11483816-10233-37",
+                    "client_id": "ea572784-7715-45b4-891c-e3f934e86935",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-8984070-49875-17",
+                    "client_id": "b49e4e91-b440-45e7-b68b-dd478bf0fbde",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-9997456-91667-26",
+                    "client_id": "38cdbb48-4507-4fa9-a0ef-5865c87ff1e1",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-7427059-14691-20",
+                    "client_id": "b4845e63-133b-4fbe-9781-bce42249703f",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-8659800-27693-28",
+                    "client_id": "c1a67bc8-1d91-49ba-814e-ceb2b4da8267",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-12751542-34668-50",
+                    "client_id": "3c3c1191-f4b7-4d3d-818e-a6ff284c6690",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-12200589-43148-43",
+                    "client_id": "b90c5a6d-4e6c-42cd-bcba-031967c73d75",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-12756029-20165-42",
+                    "client_id": "cb55e502-8b80-4d1b-b2b9-f3bf4d8e0fd4",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-12940612-80406-39",
+                    "client_id": "dcb14150-2654-45bb-a0b2-17805fc0301d",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-13333295-24690-46",
+                    "client_id": "ea663d89-a006-4712-af0e-362c6a5314a7",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-5170211-57264-6",
+                    "client_id": "1ff73bd6-ccdf-428f-bd30-6f505f89ada3",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-13637096-71817-55",
+                    "client_id": "2c9c3803-4863-47c8-8a44-c8e926c39c97",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-5170184-69753-21",
+                    "client_id": "76d24cea-7bfb-4cdc-b5d9-1a2a7c2b5c02",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1063-90130-40",
+                    "client_id": "9429ca80-200c-405e-8a12-49b7e7faa7b0",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1432-25301-38",
+                    "client_id": "fa8aab80-2a6b-4999-bd24-db8eee9cf5ed",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1297-94133-56",
+                    "client_id": "2f6a0c84-a276-486d-acc3-eb26eda89305",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1296-44739-62",
+                    "client_id": "708e4f15-9539-414e-a378-efe5689fefae",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1126-82758-57",
+                    "client_id": "463adedb-904d-48a3-b115-12d288a72299",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1125-73927-54",
+                    "client_id": "f0a08879-f345-4de6-b90c-03f5a209742f",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1128-66850-54",
+                    "client_id": "4ec2abce-f13d-4e1d-9d0f-4dcaa8450814",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1375-75046-55",
+                    "client_id": "1ab51a3b-412e-4b65-9ead-14b5f39f1f8f",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1129-91277-56",
+                    "client_id": "84525deb-708b-4d99-88b2-470a0ad98df7",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1127-67326-52",
+                    "client_id": "014781db-471e-4658-ab17-9e764571cc25",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1373-36045-49",
+                    "client_id": "87c5f6d0-cf96-4e81-80ca-5201178293f3",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1374-15986-61",
+                    "client_id": "e2b0ebe8-f60a-467a-9903-e9a9d09e6062",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1295-74184-58",
+                    "client_id": "e793001e-f6b3-45b6-8501-2bcf4f561324",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1122-12231-32",
+                    "client_id": "c0c44a40-9c0a-4221-9a7a-efdfdfc076bc",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1124-58130-42",
+                    "client_id": "cec7b1a5-d2fd-45f7-a5c7-44d5546a8c31",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1372-78036-54",
+                    "client_id": "66a20c8b-0697-4194-b9c9-353215a5b075",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1443-20506-42",
+                    "client_id": "69d4bb80-fe41-46b9-b018-3df69bde9208",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1075-91994-62",
+                    "client_id": "4c5e69a1-4fcb-41a6-a157-eafaefa66acd",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1121-59039-48",
+                    "client_id": "529ff32b-1a38-4d60-bef8-7c020267905c",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1518-58991-64",
+                    "client_id": "cdf57900-ee00-4ee3-8570-99abc83c268e",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-11600506-13671-33",
+                    "client_id": "49b097e6-865e-42bb-813b-f780338c79af",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-2999713-92701-24",
+                    "client_id": "c66ded9e-7a21-48e2-ad35-f08a5ab5fffe",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-14807025-39369-53",
+                    "client_id": "3ce58b86-6197-4409-a4cb-551569a6a22a",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-DF-14859601-48848-62",
+                    "client_id": "3c46be0b-5351-433f-b2c7-21afbd284e21",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starlink",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1568-44671-59",
+                    "client_id": "5552b6e0-8b5f-4957-aa22-680458bd7b4a",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1567-33651-54",
+                    "client_id": "26de6a49-65e3-466b-864a-7bf78c0d737d",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1596-82748-67",
+                    "client_id": "c61a2a5c-df13-4a68-9d7b-7887eb45a2e7",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1590-22588-57",
+                    "client_id": "7b2ace89-6501-470e-a459-617abdb7d091",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1595-59197-68",
+                    "client_id": "deba6feb-6f42-4ab7-98af-0cfa58a4e59f",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1592-36456-58",
+                    "client_id": "f895520e-980a-45b5-a543-995d44eb871c",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1589-68678-75",
+                    "client_id": "051dc2f1-47f4-430a-a08e-a76de6ddc2c3",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1591-80703-51",
+                    "client_id": "ed4df850-1536-41d1-bfdd-5646fbff55a4",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1594-48717-63",
+                    "client_id": "55611e04-3e25-48a4-88fa-a82abc11d219",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1588-41925-60",
+                    "client_id": "83fd47e4-73a2-47f7-a003-31da8b3f5602",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1597-52757-65",
+                    "client_id": "0067f5cd-706c-4e27-8ad0-7ca54bead09a",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1587-89924-70",
+                    "client_id": "b51cb051-4a36-4526-bf1c-73a5c1f66c29",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1579-31079-59",
+                    "client_id": "11ba87d1-b20d-48b0-91a3-0d652c27cb2b",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1593-86852-64",
+                    "client_id": "9e36eb4c-a764-468b-aa4e-442fe71ad35e",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1598-68521-62",
+                    "client_id": "12e29cf7-c966-47a6-9dce-f7adaec03500",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                },
+                {
+                    "account_num": "ACC-SD-1064-54868-59",
+                    "client_id": "36b4f5c9-0630-4f36-9078-622d6478edf0",
+                    "client_secret": "C3ntC0mSt@rshieldAPI",
+                    "account_type": "starshield",
+                    "accountquery": {
+                        "_comment": "Query all terminals or partial, mode value below is full or include or skip",
+                        "mode": "full",
+                        "service_lines": []
+                    }
+                }
+            ],
+            "grant_type": "client_credentials"
+        },
+        "request_timeout": 15,
+        "cef": {
+            "_comment": "Convert data to CEF messages. DO NOT change field: 1, 4, and 5",
+            "enable": true,
+            "headers1": "CEF:0|CENTCOM|J6-DTT|{}|{}|STARSHIELDV2|APP002|",
+            "headers2": "CEF:0|CENTCOM|J6-DTT|{}|{}|||",
+            "headers3": "CEF:0|CENTCOM|J6-DTT|{}|{}|||"
+        },
+        "remote_server": {
+            "_comment": "Send data/CEF messages to remote host",
+            "enable": true,
+            "remote_addr": "214.26.81.160",
+            "remote_port": 7002
+        }
+    }
+}
