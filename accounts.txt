@@ -1,0 +1,27 @@
+Starlink.com
+1.	Account: 
+ACC-DF-15370298-26336-51
+o	Account Name:
+5510 MP 217
+o	Client ID:
+07a58bed-1d97-4596-956f-c7a54733f308
+o	Client Secret:
+spx_df_uFSi8J5RYQWUqCBILK-670LsR2z_HvtsHY766GLybC6z3WDm
+
+Starshield.com
+1.	Account:
+ACC-SD-1732-98384-62
+o	Account Name: 
+NANO ACE
+o	Client ID:
+b02e7c3f-7f9f-41ad-84bc-e0ace26ad18e
+o	Client Secret:
+spx_sd_P-u_K4FQvQ3R5U259Kjj30xT3y5j2_sE4vynQiMN2irMEvhg
+2.	Account:
+ACC-DF-11888924-47593-65
+o	Account Name: 
+CENTCOM
+o	Client ID:
+e4e39015-556e-4fca-8e48-418d5b172e78
+o	Client Secret:
+spx_sd_Z_mlOL-H4Mc1Av4pzmGUQHBHIJ8yrpKSAJX89QK1UlW7Terz
