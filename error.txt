@@ -1,1 +1,2 @@
 https://portal.baysidetech.net/proxy/c519500c-1844-43c3-bd55-499357c2a2a2/login?next=/
+NVIDIA_API_KEY=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
